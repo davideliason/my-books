@@ -1,0 +1,17 @@
+export const addBook = (title,author,genre,owned) => ({
+  type: 'ADD_BOOK',
+  title,
+  author,
+  genre,
+  owned
+})
+
+export const setGenreFilter = (filter) => ({
+  type: 'SET_GENRE_FILTER',
+  filter
+})
+
+export const toggleReadBook = (id) => ({
+  type: 'TOGGLE_READ_BOOK',
+  id
+})
