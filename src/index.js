@@ -13,4 +13,9 @@ store.dispatch({
 	owned: true
 })
 
+store.dispatch({
+	type: 'SET_GENRE_FILTER',
+	filter: 'drink more coffee'
+})
+
 ReactDOM.render(<Provider store={store}><AppContainer /></Provider>, document.getElementById('root'));
