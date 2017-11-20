@@ -7,16 +7,18 @@ import {Provider} from 'react-redux';
 
 store.dispatch({
   type: 'ADD_BOOK',
-  author: "xyz",
+  id: 1,
   title: "him",
+  author: "xyz",
   genre: "Mystery",
   owned: false
 });
 
 store.dispatch({
 	type: 'TOGGLE_BOOK',
-	id: 0
+	id: 1
 })
+
 
 
 console.log(store.getState());

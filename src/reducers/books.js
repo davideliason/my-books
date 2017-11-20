@@ -11,6 +11,7 @@ const books =(state=[{
 	      return [
 	        ...state,
 	        {
+	          id: action.id,
 	          title: action.title,
 	          author: action.author,
 	          genre: action.genre,
