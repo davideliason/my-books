@@ -1,7 +1,9 @@
 import ActionTypes from '../constants/action_types.js';
+let nextId = 0;
 
 export const addBook = (title,author,genre,owned) => ({
   type: 'ADD_BOOK',
+  id: nextId++,
   title,
   author,
   genre,
