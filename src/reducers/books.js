@@ -4,7 +4,14 @@ const books =(state=[{
   title:"I, Robot",
   author:"Isaac Asimov",
   genre: "SCIFI",
-  owned: false }],action) => {
+  owned: false },
+  {
+  id: 1,
+  title:"Robot Murder",
+  author:"Isaac Asimov",
+  genre: "MYSTERY",
+  owned: false }
+  ],action) => {
      switch (action.type){
 
        case 'ADD_BOOK':
