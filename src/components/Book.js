@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Book = ({onClick, title, author, genre,owned}) => (
-		<li onClick={onClick}>
+const Book = ({ title, author, genre,owned }) => (
+		<li>
 			{title}
 		</li>
 	)

@@ -3,7 +3,7 @@ const books =(state=[{
   id: 0,
   title:"I, Robot",
   author:"Isaac Asimov",
-  genre: "Science Fiction",
+  genre: "SCIFI",
   owned: false }],action) => {
      switch (action.type){
 
