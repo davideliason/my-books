@@ -1,5 +1,5 @@
 import ActionTypes from '../constants/action_types.js';
-let nextId = 0;
+let nextId = 1;
 
 export const addBook = (title,author,genre,owned) => ({
   type: 'ADD_BOOK',
@@ -15,7 +15,7 @@ export const setGenreFilter = (filter) => ({
   filter
 })
 
-export const toggleReadBook = (id) => ({
-  type: 'TOGGLE_READ_BOOK',
+export const toggleBook = (id) => ({
+  type: 'TOGGLE_BOOK',
   id
 })
