@@ -7,6 +7,14 @@ const mapStateToProps = state => {
 	}
 }
 
-const UpdatedGenre = connect(mapStateToProps)(GenreDisplay);
+const mapDispatchToProps = (dispatch) => ({
+  onClick: () => {
+    dispatch({type: 'SET_GENRE_FILTER', filter: 'SHOW_SCIFI' })
+  }
+})
+
+
+
+const UpdatedGenre = connect(mapStateToProps, mapDispatchToProps)(GenreDisplay);
 
 export default UpdatedGenre
