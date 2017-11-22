@@ -1,8 +1,7 @@
 import React from 'react';
 
-const MysteryGenreDisplay = ({genreFilter,onClick }) => (
+const SciFiGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
-	  <p>{genreFilter}</p>
 	   <button 
 	   
        onClick={e => {
@@ -10,10 +9,10 @@ const MysteryGenreDisplay = ({genreFilter,onClick }) => (
          onClick()
        }}
     >
-      MYSTERY
+      Sci-Fi
     </button>
 	</div>
 
 	)
 
-export default MysteryGenreDisplay
+export default SciFiGenreDisplay
