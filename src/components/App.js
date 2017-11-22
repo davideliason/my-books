@@ -4,7 +4,7 @@ import FilteredBookList from '../containers/FilteredBookList';
 import UpdateMysteryGenre from '../containers/UpdateMysteryGenre.js';
 import UpdateSciFiGenre from '../containers/UpdateSciFiGenre.js';
 import UpdateShowAllGenre from '../containers/UpdateShowAllGenre.js';
-import {ButtonToolbar, ButtonGroup,Grid, Row, Col} from 'react-bootstrap';
+import {Jumbotron,ButtonToolbar, ButtonGroup,Grid, Row, Col} from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -23,6 +23,12 @@ class App extends Component {
       	 	</Col>
       	  </Row>
       	 </Grid>
+      	 <Row>
+      	 	<Jumbotron>
+      	 		<p>Favorite Books</p>
+      	 	</Jumbotron>
+
+      	 </Row>
      	 <FilteredBookList />
 
       </div>
