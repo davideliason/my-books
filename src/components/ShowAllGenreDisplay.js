@@ -1,8 +1,10 @@
 import React from 'react';
+import Button from 'react-bootstrap/lib/Button';
+
 
 const ShowAllGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
-	   <button 
+	   <Button bsStyle="success"
 	   
        onClick={e => {
          e.preventDefault()
@@ -10,7 +12,7 @@ const ShowAllGenreDisplay = ({genreFilter,onClick }) => (
        }}
     >
       All
-    </button>
+    </Button>
 	</div>
 
 	)

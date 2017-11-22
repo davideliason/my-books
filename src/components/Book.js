@@ -2,7 +2,7 @@ import React from 'react';
 
 const Book = ({ title, author, genre,owned }) => (
 		<li>
-			{title}
+			<h2>{title}</h2>
 		</li>
 	)
 

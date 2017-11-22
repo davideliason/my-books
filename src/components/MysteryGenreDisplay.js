@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from 'react-bootstrap/lib/Button';
+
 
 const MysteryGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
-	  <p>{genreFilter}</p>
-	   <button 
+	   <Button bsStyle="info"
 	   
        onClick={e => {
          e.preventDefault()
@@ -11,7 +12,7 @@ const MysteryGenreDisplay = ({genreFilter,onClick }) => (
        }}
     >
       MYSTERY
-    </button>
+    </Button>
 	</div>
 
 	)
