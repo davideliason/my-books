@@ -1,18 +1,19 @@
 import React from 'react';
 
-const GenreDisplay = ({genreFilter,onClick }) => (
+const MysteryGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
 	  <p>{genreFilter}</p>
 	   <button 
+	   
        onClick={e => {
          e.preventDefault()
          onClick()
        }}
     >
-      click
+      SHOW MYSTERY
     </button>
 	</div>
 
 	)
 
-export default GenreDisplay
+export default MysteryGenreDisplay
