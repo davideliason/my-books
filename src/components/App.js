@@ -3,6 +3,7 @@ import './App.css';
 import FilteredBookList from '../containers/FilteredBookList';
 import UpdateMysteryGenre from '../containers/UpdateMysteryGenre.js';
 import UpdateSciFiGenre from '../containers/UpdateSciFiGenre.js';
+import UpdateShowAllGenre from '../containers/UpdateShowAllGenre.js';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
      	 <FilteredBookList />
      	 <UpdateMysteryGenre />
      	 <UpdateSciFiGenre />
-
+     	 <UpdateShowAllGenre />
       </div>
     );
   }
