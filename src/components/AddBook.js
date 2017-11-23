@@ -1,5 +1,6 @@
 
 import React, { Component, PropTypes } from 'react'
+import {Button } from 'react-bootstrap';
 
 class AddBook extends Component {
 
@@ -22,9 +23,9 @@ class AddBook extends Component {
                     <input placeholder="author"ref="author"/>
                     <input placeholder="genre"ref="genre"/>
 
-                    <button type="submit">
+                    <Button bsStyle="success" bsSize="xsmall" type="submit">
                         Add Book
-                    </button>
+                    </Button>
                 </form>
             </div>
         );
