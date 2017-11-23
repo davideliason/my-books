@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/lib/Button';
 
 const SciFiGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
-	   <Button bsStyle="primary"
+	   <Button bsSize="large" bsStyle="primary"
 	   
        onClick={e => {
          e.preventDefault()

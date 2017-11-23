@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/lib/Button';
 
 const ShowAllGenreDisplay = ({genreFilter,onClick }) => (
 	<div>
-	   <Button bsStyle="success"
+	   <Button bsSize="large" bsStyle="success"
 	   
        onClick={e => {
          e.preventDefault()
