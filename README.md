@@ -6,7 +6,7 @@
 This is a systematic approach to put into practice the tools and techniques as instructed in the Redux team example of 'Todos', with the addition of Firebase database data persistence.
 
 ## Steps/Process/Lessons
-
+After creating the basic structure of CRA (create-react-app), it seemed fairly trivia for spinning up a redux store and passing the state of books to child components. For me, the trickiest part was really understanding the process for passing onClick handlers to child components and being able to update the state by calling those handlers. I don't fully understand the syntax for how Link components populated and triggered those in the Redux Todolist example in https://redux.js.org/docs/basics/ExampleTodoList.html, so I created separate components each with own connected props and state; while not optimal for production, I do understand how it works.
 
 ## Conclusion
 
