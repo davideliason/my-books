@@ -25,7 +25,7 @@ class App extends Component {
       	 </Grid>
       	 <Row>
       	 	<Jumbotron>
-      	 		<p>Favorite Books</p>
+      	 		<h1>Favorite Books</h1>
       	 	</Jumbotron>
 
       	 </Row>
