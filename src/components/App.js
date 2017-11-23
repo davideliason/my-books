@@ -30,6 +30,7 @@ class App extends Component {
 
       	 </Row>
      	 <FilteredBookList />
+     	 <AddBookContainer />
 
 
       </div>

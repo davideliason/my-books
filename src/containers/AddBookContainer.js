@@ -2,33 +2,22 @@ import React from 'react'
 
 import {connect} from 'react-redux'
 import AddBook from '../components/AddBook.js';
-import addBook from '../actions/index.js';
+import {addBook} from '../actions/index.js';
 
 
-let mapDispatchToProps = ({dispatch}) => ({
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onSubmit: (evt) => {
+            dispatch(addBook({
+            	title: "test",
+            	author: "joe",
+            	genre: "mystery",
+            	owned: false
+            }))
+        }
+    }
+}
 
-	return (
-		<div>
-			<form onSubmit={e => {
-					e.preventDefault()
-					dispatch(addBook(input.title,input.author,input.genre,input.owned))
-					input.title ='';
-					input.author = '';
-					input.genre = '';
-					input.owned = '';
-				}}>
-
-			 <input ref={node => {
-          		input = node
-        			}} />
-		        <button type="submit">
-		          Add Todo
-		        </button>
-     		 </form>
-		</div>
-		)
-})
-
-const AddBookContainer = connect(mapDispatchToProps)(AddBook)
+const AddBookContainer = connect(null,mapDispatchToProps)(AddBook)
 
 export default AddBookContainer

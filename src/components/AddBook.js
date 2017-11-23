@@ -4,13 +4,13 @@ const AddBook = ({ onSubmit }) => (
 		<form
 		  onSubmit={e => {
 		  	e.preventDefault()
-		  	onSubmit()
+		  	onSubmit(e)
 		  }}
 		>
 		 <input placeholder="Ttile" />
-		 <input placeholder="Author" />
-		 <input placeholder="Genre" />
-		 <input placeholder="Owned" />
+		 // <input placeholder="Author" />
+		 // <input placeholder="Genre" />
+		 // <input placeholder="Owned" />
          <input type="submit" value="Submit" />
     </form>
 	)
