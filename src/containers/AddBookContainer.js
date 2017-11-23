@@ -7,13 +7,8 @@ import {addBook} from '../actions/index.js';
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        onSubmit: (evt) => {
-            dispatch(addBook({
-            	title: "test",
-            	author: "joe",
-            	genre: "mystery",
-            	owned: false
-            }))
+        onSubmit: () => {
+            dispatch(addBook("test","jim","mystery",true))
         }
     }
 }

@@ -8,9 +8,9 @@ const AddBook = ({ onSubmit }) => (
 		  }}
 		>
 		 <input placeholder="Ttile" />
-		 // <input placeholder="Author" />
-		 // <input placeholder="Genre" />
-		 // <input placeholder="Owned" />
+		 <input placeholder="Author" />
+		 <input placeholder="Genre" />
+		 <input placeholder="Owned" />
          <input type="submit" value="Submit" />
     </form>
 	)
