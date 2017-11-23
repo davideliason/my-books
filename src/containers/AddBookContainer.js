@@ -5,13 +5,14 @@ import AddBook from '../components/AddBook.js';
 import {addBook} from '../actions/index.js';
 
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch, ownProps) => {
     return {
-        onSubmit: (evt) => {
-            dispatch(addBook(evt.target.querySelector('input').value,"jim","mystery",true))
+        addBook:(title,author,genre,owned) => {
+
+            dispatch(addBook(title,author,genre,owned));
         }
     }
-}
+};
 
 const AddBookContainer = connect(null,mapDispatchToProps)(AddBook)
 

@@ -1,18 +1,28 @@
-import React from 'react';
 
-const AddBook = ({ onSubmit }) => (
-		<form
-		  onSubmit={e => {
-		  	e.preventDefault()
-		  	onSubmit(e)
-		  }}
-		>
-		 <input placeholder="Ttile" />
-		 <input placeholder="Author" />
-		 <input placeholder="Genre" />
-		 <input placeholder="Owned" />
-         <input type="submit" value="Submit" />
-    </form>
-	)
+import React, { Component, PropTypes } from 'react'
+
+class AddBook extends Component {
+
+    handleSubmit(event) {
+        let input = this.refs.input;
+        event.preventDefault();
+       
+        this.props.addBook(input.value,"jim","mystery",false);
+        input.value = ''
+    }
+
+    render() {
+        return (
+            <div>
+                <form onSubmit={this.handleSubmit.bind(this)}>
+                    <input ref="input"/>
+                    <button type="submit">
+                        Add Book
+                    </button>
+                </form>
+            </div>
+        );
+    }
+}
 
 export default AddBook
