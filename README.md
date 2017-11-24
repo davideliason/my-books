@@ -13,6 +13,7 @@ Another learning point for me was understanding how to grab various input text f
 
 ## Conclusion
 
+The result of this exercise was an app that displayed the books information with an option to filter the results based on genre. This implementation used Redux as a single source of truth, passing data to be rendered as props to components
 
 ![My-Books-React](./my-books-react-redux.png?raw=true "My Books")
 
