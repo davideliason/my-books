@@ -13,7 +13,7 @@ Another learning point for me was understanding how to grab various input text f
 
 ## Conclusion
 
-
+![My-Books-React]('./my-books-react-redux.png'?raw=true "My Books")
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
