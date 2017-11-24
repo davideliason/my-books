@@ -1,0 +1,16 @@
+{
+  "books" : {
+    "-KUDHLoA79LzYXsXLNZM" : {
+      "author" : "Arthur C. Clark",
+      "genre" : "SCIFI",
+      "owned" : false,
+      "title" : "2001"
+    },
+    "-KUDHPgsYqOVcC-Db7-W" : {
+      "author" : "Isaac Asimov",
+      "genre" : "SCIFI",
+      "owned" : false,
+      "title" : "I, Robot"
+    }
+  }
+}
