@@ -1,6 +1,6 @@
 # My Books
 ## November 19, 2017
-### [David Eliason](https://wwww.davethemaker.com)
+### [David Eliason](https://www.davethemaker.com)
 
 ## Objectives
 This is a systematic approach to put into practice the tools and techniques as instructed in the Redux team example of 'Todos', with the addition of Firebase database data persistence.
