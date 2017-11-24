@@ -1,6 +1,6 @@
 # My Books
 ## November 19, 2017
-### David Eliason
+### [David Eliason](https://wwww.davethemaker.com)
 
 ## Objectives
 This is a systematic approach to put into practice the tools and techniques as instructed in the Redux team example of 'Todos', with the addition of Firebase database data persistence.
@@ -13,7 +13,9 @@ Another learning point for me was understanding how to grab various input text f
 
 ## Conclusion
 
-The result of this exercise was an app that displayed the books information with an option to filter the results based on genre. This implementation used Redux as a single source of truth, passing data to be rendered as props to components
+The result of this exercise was an app that displayed the books information with an option to filter the results based on genre. This implementation used Redux as a single source of truth, passing data to be rendered as props to components.
+
+Please view on [Heroku](https://my-books-per-react.herokuapp.com/)
 
 ![My-Books-React](./my-books-react-redux.png?raw=true "My Books")
 
